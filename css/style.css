@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-wrapper{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  background-color: rgba(114, 73, 73, 0.596);
+}
+
+.square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% 10);
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+}
+
+
