@@ -7,3 +7,18 @@ Quando l’utente clicca su ogni cella, la cella cliccata si colora di azzurro e
 */
 
 const container = document.querySelector('.container')
+
+
+for(let i = 0; i < 100; i ++){
+  const singleSquare = creaSquare();
+  console.log('singleSquare')
+  container.appendChild(singleSquare)
+}
+
+function creaSquare(){
+  const newSquare = document.createElement('div');
+  newSquare.className = 'square'
+
+  
+  return newSquare;
+}
